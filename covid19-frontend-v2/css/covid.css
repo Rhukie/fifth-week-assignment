@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#logo{
+    
+    background-color: #fff;
+    width: 4.0em;
+    margin-left: 0.8em;
+    color: red;
+    text-align: center;
+    height: 3.5em;
+    box-shadow: 1px 2px 1px 2px red;
+    border-radius: 0.2em;
+    padding-top: 0.7em;
+    font-size: 1.7em;
+    margin-bottom: 2em;
+    font-weight: 300;
+    
+       
+       
+}
+.header{
+    display: flex;
+}    
+.text{
+    color: red;
+    font-weight: 795;
+    margin-left: 3.5em;
+    padding-top: 3em;
+}
+.cases{
+    border: 0.1px solid #f5bbbb;
+    width: 14em;
+    margin-left: 2em;
+    padding-left: 0.5em;
+    padding-bottom: 2.5em;
+    border-radius: 0.3em;    
+    box-shadow: 1.5px 3px 5px red;
+
+}
+.fa-caret-up {
+    color: red;
+    margin-left: 0.5em;
+}
+span{
+    font-weight: 700;
+}
+.fa-caret-down{
+    color: green;
+    margin-left: 0.5em;
+}
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5em;
+}
+.data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.5em;
+    margin-left: 2.1em;
+    position: relative;
+    
+}
+.data table {
+    width: 56.5em;
+    box-shadow: 1px 4px 1px lightgray;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    #logo{
+        
+        background-color: #fff;
+        margin-left: 0.8em;
+        color: red;
+        text-align: center;
+        height: 2em;
+        box-shadow: 1.5px 4px 1.5px red;
+        border-radius: 0.2em;
+        padding-top: 0.6em;
+        font-size: 1.2em;
+        width: 100px;
+        height: 80px;
+           
+           
+    }
+    .header{
+        display: flex;
+        margin-top: 20px;
+    }
+    .text{
+        color: red;
+        font-weight: 700;
+        margin-left: 2em;
+        padding-top: 0.9em;
+    }
+    .cases{
+        border: 0.1px solid #f5bbbb;
+        width: 14em;
+        margin-left: 2em;
+        padding-left: 0.5em;
+        padding-bottom: 2.5em;
+        border-radius: 0.3em;    
+        box-shadow: 1.5px 3px 5px red;
+        margin-top: 3em;
+        width: 247%;
+    
+    }
+    .fa-caret-up {
+        color: red;
+        margin-left: 0.5em;
+    }
+    span{
+        font-weight: 700;
+    }
+    .fa-caret-down{
+        color: green;
+        margin-left: 0.5em;
+    }
+    .dashboard{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 5em;
+    }
+    .data {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3.5em;
+        margin-left: 2.1em;
+        position: relative;
+        
+    }
+    .data table {
+        box-shadow: 1px 4px 1px lightgray;
+        width: 35em;
+        margin-left: 2em;
+        margin-top: 3em;
+    }    
+}    
+
+
+.tips {
+    width: 14.8em;
+    border: 1px solid #e2e2e2;
+    margin-right: 5em;
+    margin-bottom: 2em;
+    height: 11em;
+    border-radius: 0.3em;
+    box-shadow: 1.5px 3px 5px red;
+    margin-left: 2em;
+
+
+}
+.tips p {
+    text-align: center;
+    color: red;
+    border: .1px solid #e49191;
+    background-color: #e49191;
+    font-weight: 800;
+    width: 12em;
+    margin-left: 1em;
+    border-radius: 5px;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+img {
+    margin-left: 1em;
+}
+
+#spinner{
+    border: 5px solid #eee;
+    width: 50px;
+    height:50px;
+    border-top-color: rgb(221, 25, 58);
+    position: absolute;
+    left: 30em;
+    top:10em;
+    animation: spin 0.75s linear infinite;
+    border-radius: 100%
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
